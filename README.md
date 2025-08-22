@@ -1,18 +1,23 @@
-# Scrimba JavaScript Projects
+# Scrimba Projects
 
-This repo collects my Scrimba projects. Each project sits in its own folder with its own README and (when available) a live demo.
+All my Scrimba work in one place — JavaScript, React, AI, and more.  
+Each project has its own folder and README. Deployed demos are linked where available.
 
-## 📂 Projects
+## 📚 Tracks
+- **JS Basics** → `tracks/js-basics`
+- **React** → `tracks/react`
+- **AI** → `tracks/ai`
 
-| Project   | Description                   | Live Demo |
-|-----------|-------------------------------|-----------|
-| Homepage  | Static homepage from Scrimba  | (need to deploy) |
+## 📂 Projects Index
+| Track | Project | Description | Live Demo |
+|------|---------|-------------|-----------|
+| JS Basics | Homepage | Static homepage project | (add link if deployed) |
 
-## 🚀 Run locally
-Clone the repo, then open any project folder:
+> I update this table as I complete lessons.
 
+## ▶️ Run locally
+Most JS basics projects:
 ```bash
-git clone https://github.com/Don-Doricent/scrimba-js-projects.git
-cd scrimba-js-projects/homepage
-# open index.html in your browser
-
+# open the project's folder and run
+# - if it's plain HTML/CSS/JS, open index.html in your browser
+# - if it uses Vite: npm install && npm run dev
