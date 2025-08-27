@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home-score {
+    background-color: black;
+    color: red;
+    width: 120px;
+    font-size: 90px;
+    margin: 20px;
+}
+
+#guest-score {
+    background-color: black;
+    color: red;
+    width: 120px;
+    font-size: 90px;
+    margin: 20px;
+}
+
+button {
+    background: none;
+}
