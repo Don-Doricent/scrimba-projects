@@ -11,7 +11,8 @@ Each project has its own folder and README. Deployed demos are linked where avai
 ## 📂 Projects Index
 | Track | Project | Description | Live Demo |
 |------|---------|-------------|-----------|
-| JS Basics | Homepage | Static homepage project | (add link if deployed) |
+| JS Basics | Homepage | Static homepage project | No Link |
+| JS Basics | Basketball Scorboard | Static homepage project | (https://dainty-douhua-19190c.netlify.app/) |
 
 > I update this table as I complete lessons.
 
