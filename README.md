@@ -13,6 +13,7 @@ Each project has its own folder and README. Deployed demos are linked where avai
 |------|---------|-------------|-----------|
 | JS Basics | Homepage | Static homepage project | No Link |
 | JS Basics | Basketball Scorboard | Static JavaScript project | (https://dainty-douhua-19190c.netlify.app/) |
+| JS Basics | Blackjack Game | Static JavaScript project | (https://dainty-douhua-19190c.netlify.app/) |
 
 > I update this table as I complete lessons.
 
