@@ -15,6 +15,7 @@ Each project has its own folder and README. Deployed demos are linked where avai
 | JS Basics | Basketball Scoreboard | Static basketball scoreboard site | (https://dainty-douhua-19190c.netlify.app/) |
 | JS Basics | Blackjack Game | Simple game of blackjack | (https://legendary-piroshki-ced04d.netlify.app/) |
 | JS Basics | Lead Tracker Extension | Extension to track leads | Extension: see folder|
+| Essential CSS | Instagram Clone | A clone of an Instagram UI | Extension: see folder|
 
 > I update this table as I complete lessons.
 
