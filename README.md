@@ -16,7 +16,7 @@ Each project has its own folder and README. Deployed demos are linked where avai
 | JS Basics | Blackjack Game | Simple game of blackjack | (https://legendary-piroshki-ced04d.netlify.app/) |
 | JS Basics | Lead Tracker Extension | Extension to track leads | Extension: see folder|
 | Essential CSS | Instagram Clone | A clone of an Instagram UI | (https://darling-treacle-c8d7a6.netlify.app/)|
-| Essential JavaScript | Cookie Consent Form | A cookie consent pop up | (https://darling-treacle-c8d7a6.netlify.app/](https://legendary-kitten-4cbdbc.netlify.app/)|
+| Essential JavaScript | Cookie Consent Form | A cookie consent pop up | (https://legendary-kitten-4cbdbc.netlify.app/)|
 
 > I update this table as I complete lessons.
 
