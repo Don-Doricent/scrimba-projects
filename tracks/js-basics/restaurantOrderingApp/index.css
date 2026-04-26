@@ -1,3 +1,16 @@
 body {
     margin: 0;
 } 
+
+h1 {
+    color: red;
+}
+
+.header img {
+    opacity: 0.5;
+}
+
+.foodItem{
+    border-bottom: 2px solid gray;
+}
+
