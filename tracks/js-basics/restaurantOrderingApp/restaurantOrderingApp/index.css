@@ -1,0 +1,51 @@
+body {
+    max-width: 500px;
+    margin: 0 auto;
+} 
+
+h1 {
+    color: blue;
+}
+
+
+.foodItem{
+    border-bottom: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.container {
+    max-width: 100%;
+}
+
+.containerFood{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background-image: url("./images/burger-soda-fast-food-header-banner-template-94802990.webp");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 100%;
+}
+
+
