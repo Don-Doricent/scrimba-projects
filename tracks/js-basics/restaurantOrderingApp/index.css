@@ -1,16 +1,28 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 } 
 
-h1 {
-    color: red;
-}
-
-.header img {
-    opacity: 0.5;
-}
-
 .foodItem{
-    border-bottom: 2px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
 }
 
+.food-img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.food-info {
+    flex: 1;
+}
+
+.add-btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
