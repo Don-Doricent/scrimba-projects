@@ -3,6 +3,12 @@ body {
     font-family: sans-serif;
 } 
 
+.app-container {
+    max-width: 50%;
+    max-height: 50%;
+    align-items: center;
+}
+
 .foodItem{
     display: flex;
     align-items: center;
