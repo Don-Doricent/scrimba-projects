@@ -53,9 +53,9 @@ paymentForm.addEventListener('submit', function(e) {
     modal.classList.add('hidden')
 
     orderContainer.innerHTML = `
-    <h2>
+    <div class="success-message">
         Thanks, ${nameInput.value}! Your order is on its way!
-    </h2>
+    </div>
     `
 
     cartArray = []
