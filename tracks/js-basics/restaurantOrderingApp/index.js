@@ -2,6 +2,9 @@ import { menuArray } from "./data.js";
 
 const menuContainer = document.getElementById("menu-container")
 const orderContainer = document.getElementById("order-container")
+const modal = document.getElementById('modal')
+const paymentForm = document.getElementById('payment-form')
+const nameInput = document.getElementById('name-input')
 
 let cartArray = []
 
@@ -36,8 +39,30 @@ document.addEventListener('click', function(e) {
         console.log(e.target.dataset.id)
     }else if(e.target.dataset.remove){
         removeFromCart(e.target.dataset.remove)
+    }else if(e.target.id === "complete-order-btn"){
+        modal.classList.remove("hidden")
     }
+
 })
+
+
+paymentForm.addEventListener('submit', function(e) {
+    e.preventDefault()
+
+
+    modal.classList.add('hidden')
+
+    orderContainer.innerHTML = `
+    <h2>
+        Thanks, ${nameInput.value}! Your order is on its way!
+    </h2>
+    `
+
+    cartArray = []
+
+})
+
+
 
 function addToCart(itemId){
     const targetMenuObj = menuArray.filter(function(item) {
@@ -83,6 +108,11 @@ function renderOrder() {
     orderContainer.innerHTML = `
     <h2>Your Order</h2>
     <p>Total Price: $${orderSum}</p>
+
+    <button id="complete-order-btn">
+        Complete Order
+    </button>
+
     ${orderHtml}
     `
 }
