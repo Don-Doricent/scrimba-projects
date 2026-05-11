@@ -18,6 +18,7 @@ Each project has its own folder and README. Deployed demos are linked where avai
 | Essential CSS | Instagram Clone | A clone of an Instagram UI | (https://darling-treacle-c8d7a6.netlify.app/)|
 | Essential JavaScript | Cookie Consent Form | A cookie consent pop up | (https://legendary-kitten-4cbdbc.netlify.app/)|
 | Essential JavaScript | Cat Meme Generator | A site to generate cat memes | (https://leafy-pithivier-35c921.netlify.app/)|
+| Essential JavaScript | Restaurant Ordering App | An online Ordering App | (https://donsdivebar.netlify.app/)|
 
 > I update this table as I complete lessons.
 
