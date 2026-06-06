@@ -29,7 +29,7 @@ html, body {
     width: 300px;
 }
 
-.movieContainer {
+#movieContainer {
     display: flex;
     justify-content: center;
     align-items: center;
