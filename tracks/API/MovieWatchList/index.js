@@ -17,6 +17,10 @@ searchEl.addEventListener('click', function(event){
 
              movieArea.textContent = `
                 ${movieData.Title}
+                ${movieData.Poster}
+                ${movieData.Ratings[0]}
+                ${movieData.Year}
+
              `
         })
 
