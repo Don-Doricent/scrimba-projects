@@ -2,3 +2,38 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.headerContainer{
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('./images/movieBackground.jpg');
+    background-position: 100%;
+    color: white;
+}
+
+.searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10px;
+}
+
+.searchContainer > button {
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+}
+
+.searchContainer > input {
+    width: 300px;
+}
+
+.movieContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 2px solid black;
+    
+}
