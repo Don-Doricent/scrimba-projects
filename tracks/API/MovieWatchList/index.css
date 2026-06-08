@@ -37,3 +37,14 @@ html, body {
     border: 2px solid black;
     
 }
+
+.movieCard {
+    display: flex;
+    gap: 20px;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.movieCard img {
+    width: 200px;
+}
