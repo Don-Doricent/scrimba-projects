@@ -1,5 +1,17 @@
+import Header from './Header.jsx'
+import Body from './Body.jsx'
+import Footer from './Footer.jsx'
+
+
 function App() {
-  return <h1>Digital Business Card</h1>
+  return (
+    <main className="card">
+      <Header />
+      <Body />
+      <Footer />
+
+    </main>
+  )
 }
 
 export default App
