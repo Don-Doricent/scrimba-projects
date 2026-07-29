@@ -109,3 +109,33 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.headerImg {
+  height: 100%;
+  background-size: contain;
+  margin: 10px;
+}
+
+.title {
+  font-family: 'Inter', sans-serif;
+}
+
+.title > h2 {
+  color: orange;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+}
+
+.info {
+  text-align: start;
+}
+
+.footer{
+  margin-top: 20px;
+  background-color: gray;
+}

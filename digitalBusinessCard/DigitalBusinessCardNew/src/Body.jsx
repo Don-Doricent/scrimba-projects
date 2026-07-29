@@ -1,15 +1,15 @@
 function Body(){
     return(
         <>
-                <div className="Title">
+                <div className="title">
                     <h1>Donald Doricent</h1>
                     <h2>Fullstack Developer</h2>
                     <h3>dondoricent.netlify.app</h3>
                 </div>
 
-                <div className="buttons">
-                    <button>Email</button>
-                    <button>LinkedIn</button>
+                <div className="buttonContainer">
+                        <button>Email</button>
+                        <button>LinkedIn</button>
 
                 </div>
 
