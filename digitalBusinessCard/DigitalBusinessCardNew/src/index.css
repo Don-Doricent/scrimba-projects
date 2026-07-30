@@ -30,13 +30,13 @@ body {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 24px;
+  align-items: flex-start;
+  padding: 12px;
 }
 
 .card {
   width: 100%;
-  max-width: 420px;
+  max-width: 360px;
   background: #1a1b21;
   border-radius: 12px;
   overflow: hidden;
@@ -46,32 +46,32 @@ body {
 
 .headerImg {
   width: 100%;
-  height: 280px;
+  height: 190px;
   object-fit: cover;
   display: block;
 }
 
 .title {
-  padding: 24px 24px 18px;
+  padding: 16px 20px 12px;
 }
 
 .title h1 {
-  margin: 0 0 6px;
-  font-size: 30px;
+  margin: 0 0 5px;
+  font-size: 25px;
   line-height: 1.1;
   color: #ffffff;
 }
 
 .title h2 {
-  margin: 0 0 10px;
-  font-size: 16px;
+  margin: 0 0 7px;
+  font-size: 14px;
   font-weight: 500;
   color: #f3bf99;
 }
 
 .title h3 {
   margin: 0;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: #d1d5db;
 }
@@ -80,19 +80,23 @@ body {
   display: flex;
   justify-content: center;
   gap: 12px;
-  padding: 0 24px;
-  margin-bottom: 28px;
+  padding: 0 20px;
+  margin-bottom: 18px;
 }
 
 .buttonContainer a {
   flex: 1;
   min-width: 0;
-  padding: 10px 16px;
+  min-height: 38px;
+  padding: 8px 12px;
   border-radius: 6px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
   text-align: center;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition:
     transform 0.2s ease,
     opacity 0.2s ease;
@@ -119,20 +123,20 @@ body {
 }
 
 .info {
-  padding: 0 24px 26px;
+  padding: 0 20px 16px;
   text-align: left;
 }
 
 .info h2 {
-  margin: 0 0 8px;
-  font-size: 20px;
-  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 17px;
+  color: #f3bf99;
 }
 
 .info p {
-  margin: 0 0 22px;
-  font-size: 15px;
-  line-height: 1.55;
+  margin: 0 0 14px;
+  font-size: 13px;
+  line-height: 1.4;
   color: #d1d5db;
 }
 
@@ -144,14 +148,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 22px;
-  padding: 20px;
+  gap: 18px;
+  padding: 12px;
   background: #161619;
-  font-size: 28px;
+  font-size: 23px;
 }
 
 footer a {
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: #918e9b;
   text-decoration: none;
   transition:
@@ -170,14 +176,9 @@ footer a:focus-visible {
   border-radius: 4px;
 }
 
-.info > h2 {
-  color: #f3bf99;
-}
-
 @media (max-width: 480px) {
   #root {
-    padding: 12px;
-    align-items: flex-start;
+    padding: 8px;
   }
 
   .card {
@@ -185,22 +186,32 @@ footer a:focus-visible {
   }
 
   .headerImg {
-    height: 240px;
+    height: 170px;
   }
 
   .title {
-    padding: 20px 18px 16px;
+    padding: 14px 16px 10px;
   }
 
   .title h1 {
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .buttonContainer {
-    padding: 0 18px;
+    padding: 0 16px;
+    gap: 10px;
   }
 
   .info {
-    padding: 0 18px 22px;
+    padding: 0 16px 14px;
+  }
+
+  .info p {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 21px;
   }
 }
